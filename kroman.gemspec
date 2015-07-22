@@ -11,7 +11,8 @@ Gem::Specification.new do |spec|
   spec.email         = ["yeannylam@gmail.com"]
 
   spec.summary       = "Kroman converts Korean hangul to romanized syllables"
-  spec.description   = "Kroman make nice Korean songs singable"
+  spec.description   = %{Kroman converts Korean hangul to romanized syllables, 
+which means => Kroman makes nice Korean songs singable!}
   spec.homepage      = "https://github.com/cheunghy/kroman-gem"
   spec.license       = "MIT"
 
