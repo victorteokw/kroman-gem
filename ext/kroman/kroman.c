@@ -36,6 +36,7 @@ static VALUE kroman_parse(VALUE self, VALUE hangul) {
   unlink(out_file_name);
 
   VALUE romanized = rb_str_new_cstr(buffer);
+  rb_funcall(romanized, rb_intern("force_encoding"), 1, rb_str_new_cstr("utf-8"));
   return romanized;
 }
 
